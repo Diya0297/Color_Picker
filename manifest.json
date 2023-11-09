@@ -1,0 +1,12 @@
+
+{
+        "manifest_version" : 3,
+        "name" : "Color Picker",
+        "description":"A simple color picker extension . Easily pick any color of the screen ",
+        "version":"1.0",
+        "author":"Diya Patel",
+        "action":{
+            "default_popup":"index.html"
+            }
+        
+}  

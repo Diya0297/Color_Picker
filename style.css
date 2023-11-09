@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    width: 500px;
+}
+.popup .picker{
+    height: 80px;
+    padding: 30px;
+    background-color: pink;
+}
+.picker #color-picker{
+    margin-top: 20px;
+    margin-left: 28%;
+    outline: none;
+    border: none;
+    background-color: rgb(105, 50, 156);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.picked-colors{
+    margin: 10px 15px;
+}
+.picked-colors header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.picked-colors .clear-all{
+    color: blueviolet;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.all-colors .colors{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    
+}
+.all-colors .colors .rect{
+    display: block;
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+    background-color: pink; 
+    margin-right: 8px;     
+}
+.all-colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.all-colors .colors .value{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+.hide{
+    display: none;
+}
